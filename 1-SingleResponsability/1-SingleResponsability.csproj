@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="CorrectAplication\" />
+    <Folder Include="Violation\" />
+  </ItemGroup>
+
 </Project>
