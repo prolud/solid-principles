@@ -3,7 +3,7 @@ using _1_SingleResponsability.CorrectAplication;
 
 namespace _1_SingleResponsability.Violation;
 
-public class SingleResponsabilityViolation
+internal class SingleResponsabilityViolation
 {
     public void DownloadFile()
     {

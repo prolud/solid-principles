@@ -13,14 +13,14 @@ public static class SingleResponsabilityCorrect
         Console.WriteLine("File downloaded successfully!");
     }
 
-    private static ExcelFile GetFileFromWeb()
+    internal static ExcelFile GetFileFromWeb()
     {
         Console.WriteLine("Request made successfully!");
         return new ExcelFile();
     }
 }
 
-public class ExcelFile
+internal class ExcelFile
 {
     public void DownloadFile(string destination)
     {
